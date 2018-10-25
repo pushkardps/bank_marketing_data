@@ -1,0 +1,403 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>;</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>bank-full.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="age" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="job" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="marital" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="education" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="default" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="balance" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="housing" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="loan" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="contact" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="day" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="month" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="duration" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="campaign" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="pdays" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="previous" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="poutcome" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+            <Field name="y" size="254" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\BankForestModelObj.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>BankForestModelObj.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="126" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="age" selected="True" />
+            <Field field="job" selected="True" />
+            <Field field="marital" selected="True" />
+            <Field field="education" selected="True" />
+            <Field field="default" selected="True" />
+            <Field field="balance" selected="True" />
+            <Field field="housing" selected="True" />
+            <Field field="loan" selected="True" />
+            <Field field="contact" selected="True" />
+            <Field field="day" selected="True" />
+            <Field field="month" selected="True" />
+            <Field field="duration" selected="True" />
+            <Field field="campaign" selected="True" />
+            <Field field="pdays" selected="True" />
+            <Field field="previous" selected="True" />
+            <Field field="poutcome" selected="True" />
+            <Field field="y" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="age" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="Byte" />
+            <Field name="job" size="13" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="String" />
+            <Field name="marital" size="8" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="String" />
+            <Field name="education" size="9" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="String" />
+            <Field name="default" size="3" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="String" />
+            <Field name="balance" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="Int32" />
+            <Field name="housing" size="3" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="String" />
+            <Field name="loan" size="3" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="String" />
+            <Field name="contact" size="9" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="String" />
+            <Field name="day" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="Byte" />
+            <Field name="month" size="3" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="String" />
+            <Field name="duration" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="Int16" />
+            <Field name="campaign" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="Byte" />
+            <Field name="pdays" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="Int16" />
+            <Field name="previous" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="Int16" />
+            <Field name="poutcome" size="7" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="String" />
+            <Field name="y" size="3" source="File: C:\Users\pushk\Desktop\pb\Harrisburg University\Analytics &amp; Principles\uci bank marketing\uci-bank-marketing\bank-full.csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="y" selected="True" rename="Target" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="Score">
+        <Position x="354" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="modelChoice">Local Model</Value>
+          <Value name="score field">
+          </Value>
+          <Value name="is oversampled">False</Value>
+          <Value name="oversampled value">
+          </Value>
+          <Value name="original percent">2</Value>
+          <Value name="log y">False</Value>
+          <Value name="prediction.interval">False</Value>
+          <Value name="interval.level">95</Value>
+          <Value name="append.xdf">False</Value>
+          <Value name="num.records">256000</Value>
+          <Value name="credentials">
+          </Value>
+          <Value name="models">
+          </Value>
+          <Value name="page">
+          </Value>
+          <Value name="errorStatus">
+          </Value>
+          <Value name="modelDetailJSON">
+          </Value>
+          <Value name="modelDetails">{"Name":"","Owner":"","Status":"","Id":"","LastDeployment":"","LastUpdated":"","LatestVersion":"","ActiveVersion":"","NumReplications":"","NumVersions":""}</Value>
+          <Value name="promoteURL">
+          </Value>
+          <Value name="username">
+          </Value>
+          <Value name="model_name">
+          </Value>
+          <Value name="model_owner">
+          </Value>
+          <Value name="apiKey">
+          </Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="450" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pushk\AppData\Local\Temp\Engine_640_7004f231e13a4f1a9c1c50270782c71d_\Engine_1340_b7adabbf58524271994b0e883174a2db_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="498" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [X_no] &gt; [X_yes] &#xA;THEN 0 &#xA;ELSE 1 ENDIF" field="PredTarget" size="8" type="Double" />
+            <FormulaField expression="IF [Target] == 'no'&#xA;THEN 0 &#xA;ELSE 1 ENDIF" field="c_Target" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PredTarget = IF [X_no] &gt; [X_yes] 
+THEN 0 
+ELSE 1 ENDIF
+c_Target = IF [Target] ==...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pushk\AppData\Local\Temp\Engine_640_7004f231e13a4f1a9c1c50270782c71d_\Engine_1340_9d928b4ad7c44370b67cd0630a1cf2b2_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pushk\AppData\Local\Temp\Engine_640_7004f231e13a4f1a9c1c50270782c71d_\Engine_1340_aa12ac7d16b243de9fe9ce137b732414_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="594" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="PredTarget" action="Sum" rename="Yes_PredTarget" />
+            <SummarizeField field="c_Target" action="Sum" rename="Yes_Target" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>bank-scoring</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
